@@ -10,7 +10,7 @@
   
 ## Step 2. Install Docker on your Pi 
  - 5 Steps to Installing and running a test container https://dev.to/rohansawant/installing-docker-and-docker-compose-on-the-raspberry-pi-in-5-simple-steps-3mgl 
-  
+  - __IMPORTANT__: *Remember to restart your PI after installing Docker* (refer to shutdown command above). 
  # Step 3. Run pi-hole on docker
   -__base command__```docker pull pihole/pihole```
   <br />
