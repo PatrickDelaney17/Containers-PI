@@ -20,6 +20,16 @@ Quick and easy ways to get started working with containers
 
 ## Getting Started with Docker
  1. Understanding how Docker works (~10 mins) - https://www.youtube.com/watch?v=wxxigbHwDGM 
+  <br /> <br />
+ <a href="http://www.youtube.com/watch?feature=player_embedded&v=wxxigbHwDGM 
+" target="_blank"><img src="http://img.youtube.com/vi/wxxigbHwDGM/0.jpg" 
+alt="Understanding Docker" width="240" height="180" border="10" /></a>
  2. Learn Docker in 12 minutes - https://www.youtube.com/watch?v=YFl2mCHdv24
+ <br />
+ <a href="http://www.youtube.com/watch?feature=player_embedded&v=YFl2mCHdv24 
+" target="_blank"><img src="http://img.youtube.com/vi/YFl2mCHdv24/0.jpg" 
+alt="Understanding Docker" width="240" height="180" border="10" /></a>
 
  
+# Once you are ready go here to begin
+ - Get your hands dirty: [Instructions.MD](https://github.com/PatrickDelaney17/Containers-PI/blob/master/Instructions.MD)
