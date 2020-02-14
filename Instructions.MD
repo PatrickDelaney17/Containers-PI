@@ -11,6 +11,12 @@
   
 ## Step 2. Install Docker on your Pi 
  1. Install Docker ```curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh```
+ 
+ *When the install has completed you should see similar output as below* <br />
+  <a href="https://github.com/PatrickDelaney17/Containers-PI/blob/master/DockerInstalled-Capture.PNG 
+" target="_blank"><img src="https://github.com/PatrickDelaney17/Containers-PI/blob/master/DockerInstalled-Capture.PNG" 
+alt="TerminalScreenShot" width="395" height="400" border="10" /></a>
+ 
  2. Add the pi user to the docker group, so it can run docker commands ```sudo usermod -aG docker pi```
  3. *Reboot* the pi ```sudo shutdown -r``` close the terminal ```exit```
  4. Open terminal and test Docker is installed ```docker --help``` should list usage options and commands.
