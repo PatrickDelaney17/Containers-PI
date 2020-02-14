@@ -7,7 +7,7 @@
 ## Step 1. Update the Pi using the terminal
   1. In the terminal ```sudo apt-get update```
   2. Then run ```sudo apt-get dist-upgrade -y``` (__dist__ will install or remove packages as necessary to complete the upgrade. __-y__ will accept the space needed for the upgrade if the pi needs patches so you skip getting prompted)
-  3. Once done you should reboot the pi ```sudo shutdown -r```  (__-r__ = reboot)
+  3. Once done you should reboot the pi, one way to do it ```sudo shutdown -r```  (__-r__ = reboot)
   
 ## Step 2. Install Docker on your Pi 
  1. Install Docker ```curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh```
@@ -18,7 +18,7 @@
 alt="TerminalScreenShot" width="395" height="400" border="10" /></a>
  
  2. Add the pi user to the docker group, so it can run docker commands ```sudo usermod -aG docker pi```
- 3. *Reboot* the pi ```sudo shutdown -r``` close the terminal ```exit```
+ 3. *Reboot* the pi ```sudo reboot``` 
  4. Open terminal and test Docker is installed ```docker --help``` should list usage options and commands.
    - To learn more about docker commands/options just follow the pattern ```docker {command} --help``` or drill down further into options ```docker {command} {option} --help```
  
