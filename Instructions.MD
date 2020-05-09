@@ -48,6 +48,14 @@ alt="TerminalScreenShot" width="395" height="400" border="10" /></a>
   - "{Your PI IP}/admin"
     - Example: 192.168.1.X/admin
   
+  ---
+  #### Issues Getting to the portal? Try these steps within the CLI
+  ##### Reconfiguring your app 
+    - Throw away your container: "docker rm -f Container_Name" 
+    - Add in Arguments to ensure all dependencies are set: "docker run -p 53 -p 80:80 -p 67:67 -p 443:443 --restart=unless-stopped -v $(pwd)/etc-pihole:/etc/pihole -v $(pwd)/etc-dnsmasq.d:/etc/dnsmasq.d --cap-add=NET_ADMIN --dns=127.0.0.1 --dns=1.1.1.1 pihole/pihole" 
+    - Once running Reset your password: "docker exec -it Container_Name pihole -a -p"
+  ---
+ 
  ## Step 6 Configure a device to use your custom DNS server
 
 # Add useful tips
