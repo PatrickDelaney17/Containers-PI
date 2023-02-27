@@ -1,0 +1,10 @@
+{
+    "name": "basic-nodejs",
+    "version": "1.0.0",
+    "main": "server.js",
+    "author": "PDelaney17",
+    "license": "MIT",
+    "scripts": {
+      "start": "node server.js"
+    }
+  }
