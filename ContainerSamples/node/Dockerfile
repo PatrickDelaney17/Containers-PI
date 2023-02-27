@@ -10,4 +10,5 @@ RUN apk add dumb-init
 
 USER node
 
+EXPOSE 3333
 CMD ["dumb-init", "node", "server.js"]
